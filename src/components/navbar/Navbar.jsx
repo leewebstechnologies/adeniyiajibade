@@ -1,7 +1,8 @@
+"use client";
 import Link from "next/link";
 import React from "react";
 
-const Links = [
+const links = [
   {
     id: 1,
     title: "Home",
@@ -39,11 +40,12 @@ const Navbar = () => {
     <div>
       <Link href="/">Leewebs</Link>
       <div>
-        {Links.map((link) => (
+        {links.map((link) => (
           <Link key={link.id} href={link.url}>
             {link.title}
           </Link>
         ))}
+        <button>Logout</button>
       </div>
     </div>
   );

@@ -1,9 +1,13 @@
-import React from 'react'
+"use client";
+import React from "react";
 
 const Footer = () => {
+  console.log("hello");
   return (
-    <div>Footer</div>
-  )
-}
+    <div>
+      <div>&copy;2023 Leewebs. All rights reserved.</div>
+    </div>
+  );
+};
 
-export default Footer
+export default Footer;
