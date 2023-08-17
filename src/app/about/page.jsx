@@ -42,7 +42,7 @@ const About = () => {
             <br />
             <br /> - Graphic Design
             <br />
-            <br /> - Islamic & Arabic Education
+            <br /> - Arabic & Islamic Education
           </p>
           <Button url="/contact" text="Contact" />
         </div>
